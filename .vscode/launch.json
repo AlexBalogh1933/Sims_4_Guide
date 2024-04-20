@@ -8,7 +8,11 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
+<<<<<<< HEAD
             "file": "d:\\VS Code Projects\\Sims_4_Guide\\HTML\\index.html"
+=======
+            "file": ".\\index.html"
+>>>>>>> 104be9545aac217b031f0a49f20f9a302db96a6a
         }
     ]
 }
