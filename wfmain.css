@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+/* Basic Text */
 body {
     background-image: linear-gradient(to left, #0099ec, #a6e329);
     color: black;
@@ -16,6 +17,7 @@ h1 {
     padding-left: 1em;
     padding-right: 1em;
     font-size: 1.7em;
+    margin-top: 20px;
 }
 h2 {
     color: black;
@@ -59,8 +61,14 @@ header {
     border-style: solid;
     border-width: thick;
     border-radius: 30px;
-    padding-top: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
+
+/* Nav Bar */
 nav a{
     text-align: center;
     text-decoration: none;
@@ -70,6 +78,7 @@ nav a{
     border: solid 1px #a6e329;
     border-radius: 30px;
     display: inline-block;
+    text-align: center;
 }
 nav a:link {
     background-color: #a6e329;
@@ -84,6 +93,8 @@ nav a:hover {
 #links {
     display: inline-block;
 }
+
+/* Tables */
 ol {
     color: black;
     font-family: "Times New Roman", sans-serif;
@@ -98,16 +109,6 @@ li.tableList {
     color: black;
     font-family: "Times New Roman", sans-serif;
     font-size: 1em;
-}
-a.careers:visited {
-    color: black;
-}
-a.careers:link {
-    color: black;
-}
-a.careers:hover {
-    color: purple;
-    font-weight: bold;
 }
 dt {
     color: black;
@@ -155,16 +156,33 @@ td {
     font-size: 2.5em;
     font-weight: bold;
 }
+
+/* Jump to Careers Table */
+a.careers:visited {
+    color: black;
+}
+a.careers:link {
+    color: black;
+}
+a.careers:hover {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Photos */
 .Photo {
     border-radius: 4px;
-    padding: 5px;
-    width: 150px;
+    width: 125px;
+    position: absolute;
+    top: 110px;
+    left: 100px;
 }
 .Photo2 {
     border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    float: right;
+    width: 125px;
+    position: absolute; 
+    top: 110px;
+    right: 100px;
 }
 .Tv {
     padding: 5px;
